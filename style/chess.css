@@ -1,0 +1,45 @@
+.chessboard {
+  display: flex;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 320px;
+}
+
+.chessboard div {
+  width: 40px;
+  height: 40px;
+  flex: 1 0 0;
+}
+
+.chessboard .white {
+  background-color: #f0d9b5;
+  font-size: 30px;
+  text-align: center;
+}
+
+.chessboard .black {
+  background-color: #b58863;
+  font-size: 30px;
+  text-align: center;
+}
+
+.chessboard .whitepiece {
+  color: #ffffff;
+}
+
+.chessboard .blackpiece {
+  color: black;
+}
+
+body {
+  background-color:gray;
+}
+
+h2 {
+  margin: 0;
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  font-family: Times New Roman, Helvetica, sans-serif;
+}
